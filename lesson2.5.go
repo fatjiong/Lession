@@ -23,5 +23,9 @@ func main(){
 
 	if diff:= 100 - number;100<diff {
 		number++
+	}else if 200<diff {
+		number--
+	}else{
+		number -= 2
 	}
 }
