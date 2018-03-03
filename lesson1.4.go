@@ -1,13 +1,13 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
-func add(x int ,y int )int {
-	return x+y
+func add(x int, y int) int {
+	return x + y
 }
 
 func main() {
-	fmt.Print(add(1,2))
+	fmt.Print(add(1, 2))
 }
